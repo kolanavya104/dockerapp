@@ -63,7 +63,6 @@ jobs:
           context: .
           push: true
           tags: navyakola104/webapp:${{ github.sha }}
-
       
       - name: Deploy to EC2
         uses: appleboy/ssh-action@master
